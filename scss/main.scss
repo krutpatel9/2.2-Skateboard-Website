@@ -1,0 +1,348 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+
+
+body {
+  $grid-columns:(15);
+  $grid-view:true;
+  background: url("../assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1400px;
+
+}
+.con {
+  max-width: 1015px;
+}
+
+.container {
+  height: 335px;
+  border: 8px solid white;
+  position: relative;
+  top: 150px;
+  left: 20%;
+  background: url("../assets/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.social {
+  display: inline-block;
+  float: right;
+  position: relative;
+  bottom: 145px;
+
+}
+
+.fb {
+  height: 55px;
+  display: inline-block;
+  border: 2px solid black;
+  min-width: 50px;
+  background-image: url("assets/facebook.jpg");
+}
+
+.rss {
+  height: 55px;
+  display: inline-block;
+  border: 2px solid black;
+  min-width: 50px;
+  background-image: url("assets/rss.jpg");
+}
+
+.twit {
+  height: 55px;
+  display: inline-block;
+  border: 2px solid black;
+  min-width: 50px;
+  background-image: url(assets/twitter.jpg);
+}
+
+.YT {
+  height: 55px;
+  display: inline-block;
+  border: 2px solid black;
+  min-width: 50px;
+  background-image: url(assets/youtube.jpg);
+}
+
+.top{
+  position: absolute;
+  top: -75px;
+  display: inline-block;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+
+.topper {
+  border: 2px solid black;
+  display: inline-block;
+  background-color: #B3292E;
+  position: relative;
+  width: 21%;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+.articles {
+  position: relative;
+  top: 150px;
+  align-items: center;
+  left: 17%;
+  max-width: 1015px;
+  height: 350px;
+
+
+}
+
+
+
+.article {
+  display: inline-block;
+  border: 2px solid black;
+  background: white;
+  max-width: 32.51%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+}
+.read {
+  color: red;
+
+}
+
+.head {
+  text-align: left;
+}
+
+.boarder {
+  position: relative;
+  color: #FBFFFF;
+  top: 115px;
+  left: 20%;
+  display: inline-block;
+  width: 1015px;
+  gutter: 10px;
+
+
+}
+
+.bpics {
+  text-align: center;
+  position: relative;
+  top: 17%;
+  max-width: 100%;
+  font-size: 22px;
+
+}
+
+
+.ska {
+  border: 4px solid white;
+  height: 225px;
+  background: white;
+  position: relative;
+  display: inline-block;
+  background: url("../assets/skc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 32.51%;
+  margin-left: -40px;
+  top: 0;
+
+}
+
+.skb {
+  border: 4px solid white;
+  height: 225px;
+  background: white;
+  display: inline-block;
+  background: url("../assets/skd.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 32.51%;
+}
+
+.skc {
+  border: 4px solid white;
+  height: 225px;
+  background: white;
+  display: inline-block;
+  background: url("../assets/ska.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 66.25%;
+  margin-left: -40px;
+  position: relative;
+  top: -70px;
+}
+
+.skd {
+  border: 6px solid white;
+  height: 458px;
+  background: white;
+  display: inline-block;
+  background: url("../assets/skb.jpg");
+  background-size: cover;
+  background-position: right;
+  width: 32.51%;
+  position: relative;
+  top: -233px;
+}
+
+
+
+
+.boards {
+  position: relative;
+  left: 20%;
+  top: -75px;
+}
+
+.designs {
+  background: white;
+  border: 2px solid black;
+  max-width: 965px;
+
+
+}
+.d1 {
+  background: url("../assets/sk8-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+  margin-left: -40px;
+
+}
+
+.d2 {
+  background: url("../assets/sk8-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d3 {
+  background: url("../assets/sk8-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d4 {
+  background: url("../assets/sk8-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d5 {
+  background: url("../assets/sk8-5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d6 {
+  background: url("../assets/sk8-6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d7 {
+  background: url("../assets/sk8-7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d8 {
+  background: url("../assets/sk8-8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d9 {
+  background: url("../assets/sk8-9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.d10 {
+  background: url("../assets/sk8-10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 265px;
+  width: 10%;
+}
+
+.form {
+  position: relative;
+  border: 4px solid white;
+  background: white;
+  left: 20%;
+}
+
+.summary {
+  max-width: 45%;
+}
+
+.msoc {
+  display: inline-block;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.sf {
+  position: relative;
+  left: 50%;
+  top: -170px;
+
+}
+
+.input {
+  display: block;
+  min-width: 200px;
+}
+
+
+.Name {
+  color: #B2B2B2;
+}
+
+.Email {
+  color: #B2B2B2;
+}
+
+.Your-Message {
+  color: #B2B2B2;
+}
